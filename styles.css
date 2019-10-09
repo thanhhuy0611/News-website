@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(118, 248, 162), rgb(87, 93, 155));
+}
+img { 
+	width: auto;
+	height: 150px;
+}
+.card{
+    margin-top: 1%;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+#main{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.content{
+    min-width: 300px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+}
+.btn{
+    width: 200px;
+}
+.buttonArea{
+    display: flex;
+}
+#numberOfNews,#loadMore{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1% 7% 0 7%;
+    background-color: #ffffffcc;
+}
+#loadMore{
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
